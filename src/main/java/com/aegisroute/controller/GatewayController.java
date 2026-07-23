@@ -1,11 +1,11 @@
 package com.aegisroute.controller;
 
 import com.aegisroute.entity.Gateway;
+import com.aegisroute.routing.RoutingService;
 import com.aegisroute.service.GatewayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-        import java.util.List;
+import java.util.List;
 
 @RestController
 @RequestMapping("/gateways")
@@ -13,6 +13,9 @@ public class GatewayController {
 
     @Autowired
     private GatewayService gatewayService;
+
+    @Autowired
+    private RoutingService routingService;
 
     @GetMapping
     public List<Gateway> getAllGateways() {
@@ -23,13 +26,20 @@ public class GatewayController {
     public Gateway addGateway(@RequestBody Gateway gateway) {
         return gatewayService.saveGateway(gateway);
     }
+
     @PutMapping("/{id}")
     public Gateway updateGateway(@PathVariable Long id,
                                  @RequestBody Gateway gateway) {
         return gatewayService.updateGateway(id, gateway);
     }
+
     @DeleteMapping("/{id}")
     public void deleteGateway(@PathVariable Long id) {
         gatewayService.deleteGateway(id);
+    }
+
+    @GetMapping("/route")
+    public String routeRequest() {
+        return routingService.chooseGateway();
     }
 }
