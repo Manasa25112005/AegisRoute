@@ -1,0 +1,26 @@
+# IntelliJ IDEA
+.idea/
+
+# Java / Spring Boot
+target/
+*.class
+
+# React
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment files
+.env
+*.env
+
+# ZIP files
+*.zip
+
+# Logs
+*.log

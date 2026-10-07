@@ -1,0 +1,83 @@
+.healthPage {
+    padding: 5px 10px 30px;
+}
+
+.healthHeader {
+    margin-bottom: 25px;
+}
+
+.healthHeader h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0 0 6px;
+}
+
+.healthHeader p {
+    color: #94A3B8;
+    font-size: 14px;
+    margin: 0;
+}
+
+.healthCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.healthCard {
+    background: rgba(31, 41, 55, 0.85);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .25);
+}
+
+.healthCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.healthCardHeader h2 {
+    color: white;
+    margin: 0;
+    font-size: 21px;
+}
+
+.healthStatus {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.healthMetric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(148, 163, 184, .15);
+}
+
+.healthMetric:last-child {
+    border-bottom: none;
+}
+
+.healthMetric span {
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.healthMetric strong {
+    color: white;
+    font-size: 15px;
+}
+.closedHealth {
+    color: #22C55E !important;
+}
+
+.halfOpenHealth {
+    color: #F59E0B !important;
+}
+
+.openHealth {
+    color: #EF4444 !important;
+}

@@ -1,0 +1,89 @@
+.analyticsPage {
+    padding: 5px 10px 30px;
+}
+
+.analyticsCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 25px;
+}
+
+.analyticsCard {
+    background: rgba(31, 41, 55, 0.85);
+    border-radius: 16px;
+    padding: 25px 28px;
+    min-height: 125px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.25);
+    border-top: 4px solid #38BDF8;
+}
+
+.analyticsCard.success {
+    border-top-color: #22C55E;
+}
+
+.analyticsCard.cost {
+    border-top-color: #F59E0B;
+}
+
+.analyticsCardTitle {
+    display: block;
+    color: #CBD5E1;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.analyticsCard h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0 0 8px;
+}
+
+.analyticsCard p {
+    color: #94A3B8;
+    font-size: 13px;
+    margin: 0;
+}
+.analyticsFull {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.analyticsChart {
+    background: rgba(31, 41, 55, 0.85);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.25);
+}
+
+.chartHeader h2 {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+}
+
+.chartHeader p {
+    color: #94A3B8;
+    margin: 6px 0 20px;
+    font-size: 13px;
+}
+.donutChart {
+    padding: 20px 25px;
+}
+
+.donutChart .recharts-responsive-container {
+    height: 260px !important;
+}
+.analyticsRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.analyticsRow > .analyticsChart {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}

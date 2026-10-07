@@ -1,0 +1,721 @@
+.overviewCard{
+
+    background:#111827;
+
+    border-radius:16px;
+
+    padding:25px;
+    min-height:150px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+.overviewCard:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 30px rgba(34,199,255,.18);
+
+}
+
+.cardIcon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+.cardContent{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.cardContent p{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+    margin:0;
+
+}
+
+.cardContent h2{
+
+    color:white;
+
+    font-size:30px;
+
+    margin:6px 0;
+
+}
+
+.cardContent span{
+
+    color:#22C55E;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+/* Gateway Cards */
+
+.gatewayCard {
+
+    background: #111827;
+
+    border: 1px solid rgba(148, 163, 184, 0.15);
+
+    border-top: 3px solid transparent;
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    min-height: 185px;
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+
+    transition: 0.3s ease;
+
+    box-sizing: border-box;
+
+}
+/* ===========================
+   Response Time Chart
+=========================== */
+
+.chartCard{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.25);
+
+}
+
+.chartHeader{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.chartHeader h3{
+
+    color:white;
+
+    margin:0;
+
+    font-size:22px;
+
+}
+
+.chartHeader span{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+}
+.gatewayCard:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 30px rgba(34,199,255,.18);
+
+}
+
+.gatewayHeader{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.gatewayIcon{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+.gatewayHeader h3{
+
+    color:white;
+
+    margin:0;
+
+}
+
+.status{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-top:6px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.gatewayInfo{
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+.gatewayInfo small{
+
+    color:#94A3B8;
+
+}
+
+.gatewayInfo h4{
+
+    color:white;
+
+    margin-top:6px;
+
+}
+/* ===========================
+   Prediction Card
+=========================== */
+
+.predictionCard{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.25);
+
+}
+
+.predictionCard h3{
+
+    color:white;
+
+    margin-bottom:25px;
+
+}
+
+.predictionGateway{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+}
+
+.predictionIcon{
+
+    font-size:55px;
+
+    color:#38BDF8;
+
+}
+
+.predictionGateway h2{
+
+    color:white;
+
+    margin:0;
+
+}
+
+.predictionGateway p{
+
+    color:#94A3B8;
+
+    margin-top:5px;
+
+}
+
+.predictionStats{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:18px;
+
+    margin-bottom:30px;
+
+}
+
+.predictionStats div{
+
+    background:#1E293B;
+
+    border-radius:12px;
+
+    padding:15px;
+
+}
+
+.predictionStats span{
+
+    color:#94A3B8;
+
+    display:block;
+
+    margin-bottom:6px;
+
+}
+
+.predictionStats strong{
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+.predictionBtn{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(90deg,#0EA5E9,#2563EB);
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+.liveStatus{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#10B981;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.liveDot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#10B981;
+
+    animation:blink 1.2s infinite;
+
+}
+
+@keyframes blink{
+
+    0%{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        opacity:.3;
+
+        transform:scale(1.3);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+/* ================================
+   AI Routing Engine
+================================ */
+
+.routingCard{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.25);
+
+}
+
+.routingHeader{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.brainIcon{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    border-radius:10px;
+}
+
+.routingHeader h3{
+
+    color:white;
+
+    margin:0;
+
+}
+
+.routingHeader p{
+
+    color:#94A3B8;
+
+    margin-top:5px;
+
+}
+
+.selectedGateway{
+
+    background:#1E293B;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    margin-bottom:22px;
+
+}
+
+.selectedGateway span{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+}
+
+.selectedGateway h2{
+
+    color:white;
+
+    margin-top:8px;
+
+}
+
+.routingMetrics{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.routingMetrics div{
+
+    background:#1E293B;
+
+    padding:15px;
+
+    border-radius:12px;
+
+}
+
+.routingMetrics span{
+
+    display:block;
+
+    color:#94A3B8;
+
+    margin-bottom:6px;
+
+    font-size:13px;
+
+}
+
+.routingMetrics strong{
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+.reasonSection{
+
+    margin-top:20px;
+
+}
+
+.reasonSection h4{
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:12px;
+
+}
+
+.reasonSection ul{
+
+    margin-left:20px;
+
+    color:#CBD5E1;
+
+}
+
+.reasonSection li{
+
+    margin-bottom:8px;
+
+}
+
+.reject li{
+
+    color:#FCA5A5;
+
+}
+/* ==========================
+   Routing History
+========================== */
+
+.historyCard{
+
+    margin-top:20px;
+
+    background:#111827;
+
+    border-radius:18px;
+
+    padding:20px;
+
+}
+
+.historyCard h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.historyTable{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.historyTable th{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+    text-align:left;
+
+    padding:12px;
+
+}
+
+.historyTable td{
+
+    color:white;
+
+    padding:14px 12px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.successBadge{
+
+    background:#10B981;
+
+    color:white;
+
+    padding:5px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+
+.warningBadge{
+
+    background:#F59E0B;
+
+    color:white;
+
+    padding:5px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+.selectedGatewayName{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.predictionProviderIcon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:26px;
+}
+.predictionPage{
+    padding:5px 10px 30px;
+}
+
+.predictionHeader{
+    margin-bottom:25px;
+}
+
+.predictionHeader h1{
+    color:white;
+    font-size:28px;
+    margin:0 0 6px;
+}
+
+.predictionHeader p{
+    color:#94A3B8;
+    font-size:14px;
+    margin:0;
+}
+.historyHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.liveIndicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6EE7B7;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.liveDot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #10B981;
+    display: inline-block;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.8);
+}

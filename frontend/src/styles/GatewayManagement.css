@@ -1,0 +1,361 @@
+.gatewayPage{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+.pageHeader h1{
+
+    color:white;
+
+    font-size:34px;
+
+    margin-bottom:8px;
+
+}
+
+.pageHeader p{
+
+    color:#94A3B8;
+
+    font-size:16px;
+
+}
+.gatewayCards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.gatewayCard{
+
+    background:#1E293B;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    color:white;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+.gatewayCard h2{
+
+    margin-bottom:20px;
+
+}
+
+.gatewayCard p{
+
+    margin:10px 0;
+
+}
+
+.circuitBadge{
+
+    margin-left:10px;
+
+    color:white;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+.configBtn{
+
+    margin-top:20px;
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563EB;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+.configBtn:hover{
+
+    background:#1D4ED8;
+
+}
+.infoRow{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:16px 0;
+
+    color:#CBD5E1;
+
+}
+
+.infoRow strong{
+
+    color:white;
+
+}
+
+.gatewayCard{
+
+    border-top:4px solid #2563EB;
+
+}
+.gatewayTable{
+
+    margin-top:35px;
+
+    background:#1E293B;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    color:white;
+
+}
+
+.gatewayTable h2{
+
+    margin-bottom:20px;
+
+}
+
+.gatewayTable table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.gatewayTable th{
+
+    text-align:left;
+
+    color:#94A3B8;
+
+    padding:15px;
+
+    border-bottom:1px solid #334155;
+
+}
+
+.gatewayTable td{
+
+    padding:15px;
+
+    border-bottom:1px solid #334155;
+
+}
+
+.gatewayTable tr:hover{
+
+    background:#263548;
+
+}
+.infoRow{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:15px 0;
+
+    padding-bottom:8px;
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
+
+}
+
+.infoRow span{
+
+    color:#CBD5E1;
+
+}
+
+.infoRow strong{
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.gatewayCard{
+
+    background:#1E293B;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    color:white;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:0.3s;
+
+}
+
+.gatewayCard:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 30px rgba(37,99,235,.25);
+
+}
+
+.configBtn{
+
+    margin-top:20px;
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(90deg,#0EA5E9,#2563EB);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.configBtn:hover{
+
+    background:linear-gradient(90deg,#0284C7,#1D4ED8);
+
+}
+
+.circuitBadge{
+
+    color:white;
+
+    padding:4px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+.gatewayHeader{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:22px;
+
+}
+
+.providerIcon{
+
+    font-size:30px;
+
+    color:#38BDF8;
+
+}
+.gatewayName{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+}
+
+.tableIcon{
+
+    font-size:20px;
+
+    color:#38BDF8;
+
+}
+.gatewayIcon{
+    width:52px;
+    height:52px;
+    border-radius:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:26px;
+    margin-right:12px;
+}
+
+.gatewayHeader{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:20px;
+}
+.closedBadge{
+    background:#22C55E;
+    color:white;
+    padding:5px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.halfOpenBadge{
+    background:#F59E0B;
+    color:white;
+    padding:5px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.openBadge{
+    background:#EF4444;
+    color:white;
+    padding:5px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}

@@ -1,0 +1,53 @@
+/* Main Layout */
+
+.appLayout{
+
+    display:flex;
+
+    background:#020817;
+
+    min-height:100vh;
+
+}
+
+/* Content Area */
+
+.mainContent{
+
+    flex:1;
+
+    margin-left:260px;
+
+    padding:25px;
+
+    background:#020817;
+
+    min-height:100vh;
+
+}
+
+/* Dashboard Container */
+
+.dashboardContainer{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+    .mainContent{
+
+        margin-left:0;
+
+        padding:15px;
+
+    }
+
+}

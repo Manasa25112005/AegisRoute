@@ -1,0 +1,118 @@
+.sidebar{
+
+    width:260px;
+
+    height:100vh;
+
+    background:#0F172A;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:25px 18px;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    box-shadow:3px 0 18px rgba(0,0,0,.35);
+
+}
+.logo{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:20px 0 30px;
+
+    padding-bottom:18px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+.sidebarLogo{
+
+    width:230px;
+
+    height:auto;
+
+    object-fit:contain;
+
+    border-radius:12px;
+
+    transition:0.3s ease;
+
+}
+
+.sidebarLogo:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+.menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.menuItem{
+
+    text-decoration:none;
+
+    color:#CBD5E1;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-size:17px;
+
+}
+
+.menuItem:hover{
+
+    background:#1E293B;
+
+    color:#22C7FF;
+
+    transform:translateX(6px);
+
+}
+
+.menuItem.active{
+
+    background:linear-gradient(90deg,#0EA5E9,#2563EB);
+
+    color:white;
+
+    box-shadow:0 0 15px rgba(34,199,255,.45);
+
+}
+
+.icon{
+
+    font-size:20px;
+
+}
